@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-11-05 00:34:37.341840100 UTC
+// 2025-11-05 01:27:12.117312700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,7 +7,7 @@ pub mod cs2_dumper {
     pub mod schemas {
         // Module: server.dll
         // Class count: 155
-        // Enum count: 4
+        // Enum count: 92
         pub mod server_dll {
             // Alignment: 4
             // Member count: 4
@@ -31,6 +31,18 @@ pub mod cs2_dumper {
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6,
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7,
                 ORIENTATION_FACE_ENTITY = 0x8
+            }
+            // Alignment: 4
+            // Member count: 29
+            #[repr(u32)]
+            pub enum C_EconItemView {
+                 = 0x0
+            }
+            // Alignment: 1
+            // Member count: 36
+            #[repr(u8)]
+            pub enum CGameSceneNode {
+                 = 0x0
             }
             // Parent: None
             // Field count: 1

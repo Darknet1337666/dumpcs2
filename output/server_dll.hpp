@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-11-05 00:34:37.341840100 UTC
+// 2025-11-05 01:27:12.117312700 UTC
 
 #pragma once
 
@@ -9,7 +9,7 @@ namespace cs2_dumper {
     namespace schemas {
         // Module: server.dll
         // Class count: 155
-        // Enum count: 4
+        // Enum count: 92
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -31,6 +31,79 @@ namespace cs2_dumper {
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION = 0x6,
                 ORIENTATION_FORWARD_MOVEMENT_DIRECTION_AND_UP_CONTROL_POINT = 0x7,
                 ORIENTATION_FACE_ENTITY = 0x8
+            };
+            // Alignment: 4
+            // Member count: 29
+            enum class C_EconItemView : uint32_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 1
+            // Member count: 36
+            enum class CGameSceneNode : uint8_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
             };
             // Parent: None
             // Field count: 1
